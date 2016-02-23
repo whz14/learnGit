@@ -22,3 +22,7 @@ git remote add origin github@github.com:whz14/[res_name].git // 本个本地库�
 git push -u origin master		// 第一次push
 git push origin master			// 之后的push
 git clone github@github.com:whz14/[res_name].git 	// 将res_name整体克隆到当前目录下的一个新建的res_name文件夹
+git checkout -b [branch_name]	//新开一个分支branch_name. -b指brunch
+git checkout [branch_name]		// 转到branch_name上
+git merge [branch_name]			// 将branch_name合并到master
+git branch -d [branch_name]	// 删除 branch_name
