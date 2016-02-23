@@ -19,4 +19,6 @@ git checkout -- [filename]		// 撤回对filename的修改，到最近一次的co
 git reset HEAD [filename]		// 手贱add了之后，将filename在暂存区的修改撤回(撤回add)
 ssh-keygen -t rsa -C "youremail@example.com"	// 第一次的时候需要用这个, id_rsa.pub里的粘贴进github里的sshkeys
 git remote add origin github@github.com:whz14/[res_name].git // 本个本地库加成[res_name]
-git push -u master origin
+git push -u origin master		// 第一次push
+git push origin master			// 之后的push
+git clone github@github.com:whz14/[res_name].git 	// 将res_name整体克隆到当前目录下的一个新建的res_name文件夹
