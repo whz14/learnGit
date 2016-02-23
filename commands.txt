@@ -17,3 +17,6 @@ add是加到暂存区，commit才加到master(版本库)
 git diff HEAD -- [filename]		// filename工作区和版本库的区别
 git checkout -- [filename]		// 撤回对filename的修改，到最近一次的commit或add的状态。 --很有意义
 git reset HEAD [filename]		// 手贱add了之后，将filename在暂存区的修改撤回(撤回add)
+ssh-keygen -t rsa -C "youremail@example.com"	// 第一次的时候需要用这个, id_rsa.pub里的粘贴进github里的sshkeys
+git remote add origin github@github.com:whz14/[res_name].git // 本个本地库加成[res_name]
+git push -u master origin
