@@ -25,4 +25,5 @@ git clone github@github.com:whz14/[res_name].git 	// 将res_name整体克隆到�
 git checkout -b [branch_name]	//新开一个分支branch_name. -b指brunch
 git checkout [branch_name]		// 转到branch_name上
 git merge [branch_name]			// 将branch_name合并到master
-git branch -d [branch_name]	// 删除 branch_name
+git branch -d [branch_name]		// 删除 branch_name
+git log --graph					// 可以看到分支合并图
