@@ -28,3 +28,8 @@ git merge [branch_name]			// 将branch_name合并到master
 git branch -d [branch_name]		// 删除 branch_name
 git log --graph					// 可以看到分支合并图
 git merge --no-ff				// 禁用fast forward(保留两个分支的副本)
+git stash						// 暂存当前分支工作现场，回头再说
+git stash list					// 查看当前有的stash
+git stash apply					// 恢复存了的工作现场但不删除stash存的东西。只有用git stash drop删除
+git stash apply stash@{%d}		// 多个stash时恢复编号为%d的
+git stash pop 					// 恢复&删除
