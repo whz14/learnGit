@@ -4,7 +4,7 @@ git init 				// 将当前的路径变成一个仓库
 git add [filename] 		// 把文件filename加到仓库
 git commit -m "%s"		// 保存更改, %s是一句readme说明
 git status 				// 当前状态——有多少添add了但是没commit的
-git diff [filename]		// filename和之前的区别
+git diff [filename]		// 工作区里filename和之前的区别
 git log					// 查看log日志, 各次commit id
 git log --pretty=onelin	// 相传可以查看log的简化版?
 git reset --hard HEAD^	// '^'有几个，就退回几个之前。没有^就是不动
