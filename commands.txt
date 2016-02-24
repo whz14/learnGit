@@ -36,3 +36,6 @@ git stash pop 					// 恢复&删除
 
 day 3. Feb 24
 git branch -D [branch_name]		// 强行删除一个没有用了的分支——即使还没merge
+git remote [-v]					// 远程的信息
+git push origin [local_branch_name]	// origin是远程的名称， local_branch_name是本地的，如master或branch
+git pull --set-upstream [local_branch_name] [origin/remote_branch_name]	//将remote_branch_name的更新pull下来以解决冲突
